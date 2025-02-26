@@ -43,8 +43,8 @@ function App() {
       <nav>
           <Link to ="/ex1">메뉴1</Link> &nbsp;&nbsp;&nbsp;
           <Link to ="/ex2">메뉴2</Link> &nbsp;&nbsp;&nbsp;
-          <Link to ="/ex3">메뉴3</Link>
-          <Link to ="/ex4">메뉴4</Link>
+          <Link to ="/ex3">메뉴3</Link> &nbsp;&nbsp;&nbsp;
+          <Link to ="/ex4">메뉴4</Link> &nbsp;&nbsp;&nbsp;
       </nav>
 
       <Routes>
