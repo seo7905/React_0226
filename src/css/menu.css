@@ -1,0 +1,41 @@
+
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+    body {
+      /* background-color: #1d1d1f; */
+      background-color: #fff;
+    }
+    #header{
+      height: 44px;
+      margin: 0px;
+      background-color: #2e2e2e;
+      color: #fff;
+    }
+    #nav{
+      list-style: none;
+      text-align: center;
+      font: 12px Sans-Serif;
+      line-height: 44px; /* font 이후에 지정해야 정확한 연산이 수행된다. */
+    }
+    #nav>li{
+      display: inline-block;
+      margin-right: 30px;
+    }
+    #nav>li>a{
+      color: #eee;
+      text-decoration: none;
+    }
+    #apple{
+      background-image: url(../images/icon_apple.svg);
+      width: 16px;
+      background-size: 16px 44px;
+      position: absolute;/* 이미지의 위치를 절대적 위치로 지정한다는 의미 */
+      top: 2px;
+      background-repeat: no-repeat;
+    }
+    #nav>li>a:hover{
+      color: #fff;
+      text-decoration: none;
+    }
